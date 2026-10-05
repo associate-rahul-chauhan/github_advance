@@ -4,4 +4,4 @@
    pwd
    ls -la
    whoami
-   netstat
+   ss -tuln
