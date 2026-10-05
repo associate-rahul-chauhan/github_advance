@@ -1,2 +1,2 @@
 - name: Linux Commands   # step name
-  echo "hello user"
+    echo "hello user"
