@@ -11,3 +11,6 @@ jobs:
       - name: Linux Commands
         run: |
           echo "hello user"
+          pwd
+          whoami
+          ss -tulp
