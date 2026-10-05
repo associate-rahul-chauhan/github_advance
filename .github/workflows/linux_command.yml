@@ -1,4 +1,13 @@
-steps:
-  - name: Linux Commands
-    run: |
-      echo "hello user"
+name: Linux Commands
+
+on:
+  push:
+
+jobs:
+  linux-commands:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Linux Commands
+        run: |
+          echo "hello user"
