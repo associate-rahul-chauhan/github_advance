@@ -1,2 +1,3 @@
 - name: Linux Commands   # step name
+  run: |
     echo "hello user"
