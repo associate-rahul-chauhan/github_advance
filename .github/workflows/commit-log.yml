@@ -14,4 +14,6 @@ jobs:
         run: |
           echo "commit ID: $GITHUB_SHA" >> commit.log
           echo "Commit time: $(git show -s --format=%cI $GITHUB_SHA)" >> commit.log
-          cat commit.log  
+          echo "Commit log: $(git show -s --format=%B $GITHUB_SHA)" >> commit-log
+            
+            cat commit.log  
