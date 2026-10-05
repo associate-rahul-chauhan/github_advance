@@ -1,5 +1,2 @@
 - name: Linux Commands   # step name
-  run: |                  # 2 spaces
-    pwd                   # 4 spaces
-    ls -la
-    whoami
+  echo "hello user"
