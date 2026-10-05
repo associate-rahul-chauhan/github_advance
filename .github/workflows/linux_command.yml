@@ -1,0 +1,7 @@
+-name: Linux Commands
+
+ run: |
+   pwd
+   ls -la
+   whoami
+   netstat
