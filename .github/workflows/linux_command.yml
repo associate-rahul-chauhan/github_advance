@@ -1,3 +1,4 @@
-- name: Linux Commands   # step name
-  run: |
-    echo "hello user"
+steps:
+  - name: Linux Commands
+    run: |
+      echo "hello user"
