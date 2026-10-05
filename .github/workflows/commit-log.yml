@@ -1,0 +1,15 @@
+name: log commit ID
+
+on: 
+  push:
+
+
+jobs:
+  log-commit:
+    runs-on: ubuntu-latest
+
+
+    steps:
+      - name: Add Commit Id to log
+        run: |
+          echo "commit ID: $GITHUB_SHA" >> commit.log  
